@@ -6,7 +6,13 @@ import Index from './pages/index/Index'
 
 import './assets/css/layout.scss';
 
+// redux
+import {store} from './store/configureStore';
+import {Provider} from 'react-redux';
+
 ReactDOM.render(
-  <Index />,
+  <Provider store={store}>
+    <Index />
+  </Provider>,
   document.getElementById('App')
 )
