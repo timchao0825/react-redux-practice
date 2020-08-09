@@ -13,7 +13,7 @@ Flux 中有四位主要角色：
 
 ***Flux 與 Redux 的差別***
 
-1. Redux 只有一個 Store；  
+1. Redux 只有一個 Store；
 2. Flux 有多個 Stores
 3. Redux 應用的業務資料都存於一個狀態物件中，並由 Store 去管理； 
 4. Flux 應用的業務資料，分別存在每個 Store 中

@@ -1,10 +1,12 @@
+// import { IS_LOGIN } from '../actions/actions';
+
 const loggedReducer = (state = false, action) => {
-  switch(action.type){
-    case 'sign_in':
+  switch (action.type) {
+    case 'IS_LOGIN':
       return !state;
     default:
       return state;
   }
-}
+};
 
 export default loggedReducer;
