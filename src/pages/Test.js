@@ -14,10 +14,6 @@ class Test extends Component {
     });
   };
 
-  test = () => {
-    console.log('test 123');
-  };
-
   render() {
     return (
       <div>

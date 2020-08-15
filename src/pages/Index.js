@@ -14,7 +14,6 @@ function Index() {
   const counter = useSelector((state) => state.counterReducer);
   const isLogged = useSelector((state) => state.isLogged);
   const dispatch = useDispatch();
-  // console.log('123')
   return (
     <div className="center-wrap">
       <div className="box">
