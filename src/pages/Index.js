@@ -21,12 +21,10 @@ function Index() {
         <h3>Counter {counter}</h3>
         <button onClick={() => dispatch(INCREMENT())}> + </button>
         <button onClick={() => dispatch(DECREMENT())}> - </button>
-
-        <hr />
-
+        {/* <hr />
         <h3>Loggin State</h3>
         <button onClick={() => dispatch(IS_LOGIN())}>LOG</button>
-        {isLogged ? <h3>Valuable Information to see it</h3> : ''}
+        {isLogged ? <h3>Valuable Information to see it</h3> : ''} */}
       </div>
       {/* <TextArea defaultVal={startVal}/> */}
     </div>

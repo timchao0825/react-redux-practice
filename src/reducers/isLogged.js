@@ -1,5 +1,3 @@
-// import { IS_LOGIN } from '../actions/actions';
-
 const loggedReducer = (state = false, action) => {
   switch (action.type) {
     case 'IS_LOGIN':
