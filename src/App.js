@@ -1,10 +1,10 @@
 import '@babel/polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-// page
-import Index from './pages/Index';
-// css
+// global css
 import './assets/css/layout.scss';
+// page
+import Index from './pages/reactTodo';
 // redux
 import { store } from './store/configureStore';
 import { Provider } from 'react-redux';
